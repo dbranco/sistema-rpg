@@ -1,0 +1,1 @@
+import{W as o,l as t}from"./three.module-D0gxQInC.js";function s(i){const e=new o({canvas:i,antialias:!0});return e.shadowMap.enabled=!0,e.toneMapping=t,e.toneMappingExposure=1,{render:(r,n)=>e.render(r,n),resize(r,n){e.setPixelRatio(Math.min(window.devicePixelRatio||1,r<480?1.5:2)),e.setSize(r,n,!1)},dispose(){e.dispose(),e.forceContextLoss()}}}export{s as createVideoRenderer};
